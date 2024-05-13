@@ -1,0 +1,67 @@
+header{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(dark.png);
+}
+h2{
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.box{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(212, 208, 208);
+    border: 1px solid black;
+    border-radius: 10px;   
+}
+.marcacoes{
+    font-weight: bold;
+}
+.marcacoes2{
+    font-weight: bold;
+}
+.caixona{
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+}
+.caixona::placeholder{
+    border: none;
+    background-color: #EBEBEB;
+    padding: 12px 16px 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.botao{
+    background-color: rgb(24, 24, 65);
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.nome{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+

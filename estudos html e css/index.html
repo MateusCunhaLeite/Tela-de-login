@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de pesquisa</title>
+</head>
+<header>
+    <h1><ins>Formulário de pesquisa</ins></h1>
+    <p>Obrigado por nos ajudar a melhorar nossos serviços.</p>
+</header>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Nome</h2>
+
+            <input maxlength="30" type="text" placeholder="Digite seu nome">
+            <h2>Email</h2>
+            <input maxlength="45" type="text" placeholder="Digite seu email">
+            <h2>Idade</h2>
+            <input type="number" placeholder="Idade">
+            <br>
+            <label for="opcoes">
+                <h2>Qual opção descreve sua situação atual?</h2>
+            </label>
+            <select name="opcoes" id="opcoes">
+                <option value="" disabled selected hidden>Escolha uma opção</option>
+                <option value="opcao1">Primeira opção </option>
+                <option value="opcao2">Segunda opção</option>
+                <option value="opcao3">Terceira opção</option>
+                <option value="opcao4">Quarta opção</option>
+            </select>
+            <h2>Recomenda nossos serviços</h2>
+            <div class="marcacoes">
+                <label for="opcao1"><input type="checkbox">Sim</input></label>
+                <br>
+                <label for="opcao2"><input type="checkbox">Não</input></label>
+                <br>
+                <label for="opcao3"><input type="checkbox">Talvez</input></label>
+            </div>
+
+            <h2>Qual seu serviço favorito?</h2>
+            <select name="opcoes" id="opcoes">
+                <option value="" disabled selected hidden>Escolha um dos serviços</option>
+                <option value="opcao1">Serviço 1</option>
+                <option value="opcao2">Serviço 2</option>
+                <option value="opcao3">Serviço 3</option>
+            </select>
+            <br>
+            <h2>Em que itens você gostaria de ver uma melhoria?</h2>
+            <div class="marcacoes2">
+                <label for="opcao1"> <input type="checkbox">Projetos front- end</input></label>
+                <br>
+                <label for="opcao2"><input type="checkbox">Projetos Back-end</input></label>
+                <br>
+                <label for="opcao3"><input type="checkbox">Visualização de Dados</input></label>
+                <br>
+                <label for="opcao4"><input type="checkbox">Postagens no Instagram</input></label>
+                <br>
+                <label for="opcao5"><input type="checkbox">Vídeos</input></label>
+                <br>
+                <label for="opcao6"><input type="checkbox">Desafios</input></label>
+                <br>
+                <label for="opcao7"><input type="checkbox">Fórum</input></label>
+                <br>
+                <label for="opcao8"><input type="checkbox">Cursos</input></label>
+            </div>
+            <h2>Algum comentário ou sugestão?</h2>
+            <input class="caixona" type="text" placeholder ="Digite a sua mensagem aqui" cols="50" rows="4">
+            <br><br>
+            <a href="index2.html" ><button class="botao">Enviar</button></a>
+            <br><br>
+            <p class="nome">MateusAfonso-2024</p>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
